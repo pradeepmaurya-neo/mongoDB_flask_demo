@@ -7,7 +7,7 @@ from bson.json_util import dumps
 app = Flask(__name__)
 app.secret_key = "secret key"
 # pkaOGvdL5KcHqvth
-MONGODB_URI="mongodb+srv://pradeep_neo:pkaOGvdL5KcHqvth@cluster0.3yrrbaq.mongodb.net/?retryWrites=true&w=majority"
+MONGODB_URI= 'paset your Url here'
 client = pymongo.MongoClient(MONGODB_URI)
 
 # db = client.test_database
